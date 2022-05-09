@@ -4,6 +4,6 @@ Crea un modulo con funciones que repliquen, sin utilizar ninguno de los métodos
 
 Cualquiera de tus funciones puede usar las que ya hayas creado.
 ​
-![Sample](../Screenshot_20220126_170655.png)
+![Sample](https://github.com/isdi-coders-2022/bootcamp-202204-ONLINE/blob/main/Week5/Screenshot_20220126_170655.png)
 
 ### Testea TODOS los métodos.
