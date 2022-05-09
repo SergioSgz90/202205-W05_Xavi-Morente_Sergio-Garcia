@@ -4,6 +4,6 @@ Crea un modulo con funciones que repliquen, sin utilizar ninguno de los métodos
 
 Cualquiera de tus funciones puede usar las que ya hayas creado.
 ​
-![Sample](./Screenshot_20220126_170655.png)
+![Sample](../Screenshot_20220126_170655.png)
 
 ### Testea TODOS los métodos.
