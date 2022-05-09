@@ -5,7 +5,7 @@
     "main": "index.js",
     "type": "module",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
+        "test": "jest --watchAll --coverage",
         "lint": "eslint ."
     },
     "repository": {
@@ -24,9 +24,19 @@
     },
     "devDependencies": {
         "@babel/plugin-transform-modules-commonjs": "^7.17.9",
-        "eslint": "^8.14.0",
+        "eslint": "^8.15.0",
         "eslint-config-airbnb-base": "^15.0.0",
         "eslint-plugin-import": "^2.26.0",
         "jest": "^28.1.0"
+    },
+
+    "babel": {
+        "env": {
+            "test": {
+                "plugins": [
+                    "@babel/plugin-transform-modules-commonjs"
+                ]
+            }
+        }
     }
 }

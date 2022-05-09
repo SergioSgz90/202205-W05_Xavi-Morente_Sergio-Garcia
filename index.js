@@ -1,8 +1,12 @@
-//Test para probar que el import funciona
-import { test01 } from './method_functions.js';
+import { lengthFunction, pushFunction } from './method_functions.js';
 
-const a = 'hello ';
+    // Variables
+const array01 = [12, 13, 12];
 
-test01(a);
-console.log(test01);
-//
+    // 01_lengthFunction
+console.log(lengthFunction(array01));
+
+    //02_pushFunction
+
+
+

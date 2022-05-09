@@ -1,4 +1,12 @@
-//Exportando funcion de prueba
-export function test01(value1) {
-    console.log(value1 + 'export works');
-}
+// 01_lengthFunction
+
+export const lengthFunction = (array) => {
+    array = array.length;
+    return array;
+};
+
+//02_pushfunction
+
+export const pushFunction = () => {
+
+};
