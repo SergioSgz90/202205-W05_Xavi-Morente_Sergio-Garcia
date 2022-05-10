@@ -15,3 +15,13 @@ export const popFunction = (array) => {
     array.length = array.length -1
     return array 
 }; 
+
+//04_shiftFunction
+
+
+
+//05_unshiftFunction (adds a new element in the beginning of an Array)
+export const unshiftFunction = (array) => {
+    array.length = array.length - 1;
+    return array;
+}; 

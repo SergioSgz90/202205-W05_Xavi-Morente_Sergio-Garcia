@@ -16,6 +16,7 @@ describe('Given the function lengthFunction', () => {
 
 //TESTING 02_pushFunction
 
+
 //TESTING 03_popFunction
 describe('Given the function popFunction', () => {
     describe('When recived an array', () => {
@@ -29,3 +30,8 @@ describe('Given the function popFunction', () => {
         });
     });
 });
+
+//TESTING 04_shiftFunction
+
+
+//TESTING 05_unshiftFunction
