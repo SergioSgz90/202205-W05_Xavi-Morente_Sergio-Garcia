@@ -5,8 +5,13 @@ export const lengthFunction = (array) => {
     return array;
 };
 
-//02_pushfunction
+//02_pushFunction
 
-export const pushFunction = () => {
+export const pushFunction = () => {};
 
-};
+//03_popFunction
+
+export const popFunction = (array) => {
+    array.length = array.length -1
+    return array 
+}; 
