@@ -21,7 +21,7 @@ export const popFunction = (array) => {
 
 
 //05_unshiftFunction (adds a new element in the beginning of an Array)
-export const unshiftFunction = (array) => {
-    array.length = array.length - 1;
-    return array;
+export const unshiftFunction =  (array, addvalue) => {
+    const newArray = [...addvalue, ...array];
+    return newArray
 }; 

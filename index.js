@@ -22,5 +22,8 @@ console.log('03_popFunction = ' + popFunction(array01));
 //04_shiftFunction
 
 //05_unshiftFunction
-const array02 = [11, 12, 13, 14];
-console.log('05_unshiftFunction = ' + unshiftFunction(array02));
+const array05 = [2,3,4]
+const array02 = [1]
+
+console.log('05_unshiftFunction = ' + unshiftFunction(array05, array02))
+
