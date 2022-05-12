@@ -1,14 +1,11 @@
-// Some Function
 
-export const someFunction = (array, item) => {
-    if (array === undefined) {
-        throw new Error("it's not an array");
+export const someFunction = (arr, element) => {
+    if (!arr) return false;
+    for (let i = 0; i < arr.length; i++) {
+      if (arr[i] === element) {
+        return true;
+      }
     }
-    for (let i = 0; i < array.length; i++) {
-        if (array[i] === item) {
-            return true;
-        } else {
-            return false;
-        }
-    }
-};
+    return false;
+  };
+
