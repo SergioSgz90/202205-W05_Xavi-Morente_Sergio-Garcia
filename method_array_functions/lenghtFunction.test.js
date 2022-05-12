@@ -9,7 +9,7 @@ describe('Given the function lengthFunction', () => {
             // Act
             const result = lengthFunction(initials);
             // Assert
-            expect(result).toBe(3);
+            expect(result).toBe(initials.length);
         });
     });
 });

@@ -1,3 +1,4 @@
+
 export const someFunction = (arr, element) => {
     if (!arr) return false;
     for (let i = 0; i < arr.length; i++) {
@@ -7,3 +8,4 @@ export const someFunction = (arr, element) => {
     }
     return false;
   };
+

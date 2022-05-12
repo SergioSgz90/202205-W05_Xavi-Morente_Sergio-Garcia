@@ -11,7 +11,7 @@ describe('Given the function unshiftFunction', () => {
             const result = unshiftFunction(initials, initials02);
             // Assert
             expect(result).toEqual([0, 1, 2, 4]);
-            expect(result).toContain(0);
+            expect(result).toContain(...initials02, ...initials);
         });
     });
 });
